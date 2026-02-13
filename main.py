@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-engine=create_engine(DATABASE_URL)
+# engine=create_engine(DATABASE_URL)
 #Base.metadata.create_all(engine)
 
 @app.get("/")
